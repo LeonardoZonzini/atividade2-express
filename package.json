@@ -1,0 +1,12 @@
+{
+  "name": "atividade2-express",
+  "version": "1.0.0",
+  "description": "Hospedagem de site com Node.js e Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

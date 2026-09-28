@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Atualiza a página inteira a cada 10 segundos (requisito da atividade) -->
+  <meta http-equiv="refresh" content="10">
+  <title>Cotação do Dólar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>💵 Cotação do Dólar (USD/BRL)</h1>
+    <p class="subtitulo">Dados fornecidos pela AwesomeAPI — atualiza automaticamente a cada 10 segundos</p>
+
+    <div id="loading">Carregando...</div>
+
+    <div class="cards" id="cards" style="display: none;">
+      <div class="card">
+        <h2>Valor Atual</h2>
+        <p id="valorAtual">--</p>
+      </div>
+
+      <div class="card alta">
+        <h2>Maior Valor do Dia</h2>
+        <p id="valorMax">--</p>
+      </div>
+
+      <div class="card baixa">
+        <h2>Menor Valor do Dia</h2>
+        <p id="valorMin">--</p>
+      </div>
+    </div>
+
+    <p id="atualizadoEm" class="rodape"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
